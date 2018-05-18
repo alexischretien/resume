@@ -52,6 +52,12 @@
 
 using namespace std;
 
+string ERREUR[6] = {"specification de plusieurs modes.",
+                    "specification de plusieurs nombres de lignes a afficher.",
+                    "nombre de lignes non-specifie ou invalide.",
+                    "semaphore invalide.",
+                    "specification de plusieurs titres.",
+                    "il n'existe aucune histoire satisfaisant le titre en argument."};
 /**
  * Fonction qui appelle la fonction "lireFichierXML" et qui renvoie un pointeur
  * vers un vecteur de pointeur d'histoires permettant d'iterer sur les phrases
@@ -95,24 +101,7 @@ vector< Histoire *> * lireDocuments( string a_nomFichier ) {
  */
 void afficherMessageErreur (int const &erreur) {
 
-    if (erreur == 1) {
-        cout << "Erreur, specification de plusieurs modes." << endl;
-    }
-    else if (erreur == 2) {
-        cout << "Erreur, specification de plusieurs nombres de lignes a afficher." << endl;
-    }
-    else if (erreur == 3) {
-        cout << "Erreur, nombre de lignes non-specifie ou invalide." << endl;
-    }
-    else if (erreur == 4) {
-        cout << "Erreur, semaphore invalide." << endl;
-    }
-    else if (erreur == 5) {
-        cout << "Erreur, specification de plusieurs titres." << endl;
-    }
-    else if (erreur == 6) {
-        cout << "Erreur, il n'existe aucune histoire satisfaisant le titre en argument." << endl;
-    }
+    cout << "Erreur, " << ERREUR[erreur - 1] << endl;
 }
 
 /**
