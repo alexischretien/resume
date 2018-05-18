@@ -29,9 +29,9 @@ $ ./resume [<OPTIONNEL> MODE] [<OPTIONNEL> -n NB_PHRASES] [TITRE_HISTOIRE]
 
 * `MODE`: Le mode utilisé pour calculer les distances apres une fusion 
 de noeuds lors du partionnement. Les options sont :
-    *                -s : "Simple Linkage Clustering", mode par défaut.
-    *                -c : "Complete Linkage Clustering".
-    *                -a : "Average Linkage Clustering". 
+    * `-s` : "Simple Linkage Clustering", mode par défaut.
+    * `-c` : "Complete Linkage Clustering".
+    * `-a` : "Average Linkage Clustering". 
 * `NB_PHRASES` est un entier strictement positif suivant -n. Permet de
 specifier le nombre de phrases à afficher. Par défaut, le programme
 affiche 5 phrases. 
