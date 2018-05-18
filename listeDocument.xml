@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<liste>
+    <document fichier="data/janvier1930.xml"/>
+    <document fichier="data/fevrier1930.xml"/>
+    <document fichier="data/mars1930.xml"/>
+    <document fichier="data/avril1930.xml"/>
+    <document fichier="data/mai1930.xml"/>
+    <document fichier="data/juin1930.xml"/>
+    <document fichier="data/juillet1930.xml"/>
+    <document fichier="data/aout1930.xml"/>
+    <document fichier="data/septembre1930.xml"/>
+    <document fichier="data/octobre1930.xml"/>
+    <document fichier="data/novembre1930.xml"/>
+    <document fichier="data/decembre1930.xml"/>
+    <document fichier="data/testA.xml"/>
+</liste>

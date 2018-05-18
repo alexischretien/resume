@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/C:/Users/boust_000/Documents/Astounding%20Stories/magasine.rnc" type="application/relax-ng-compact-syntax"?>
+<magasine annee="2017" editeur="B" editeur_consultant="C" mois="APRIL" no="1" proprietaire="D" titre="A" vol="I">
+	<contenus>
+		<histoire auteur="K" page="1" titre="H1">
+			A. B. C. D. E.
+		</histoire>
+		<histoire titre="H2" auteur="K" page="2">
+			A B. B C. C D.
+		</histoire>
+		<histoire titre="H3" auteur="K" page="3">
+			A B. B C. C D.
+			E F. F G. G H.
+		</histoire>
+		<histoire titre="H4" auteur="K" page="4">
+			A B. B C. C D.
+			E F. F G. G H.
+			I J. J K. K L.
+		</histoire>
+		<histoire titre="H5" auteur="K" page="5" partie="1">
+			A B. F G. L K.
+		</histoire>
+		<histoire titre="H5" auteur="K" page="6" partie="2">
+			C B. E F. I J.
+		</histoire>
+		<histoire titre="H5" auteur="K" page="7" partie="3">
+			C D. G H. J K.
+		</histoire>
+	</contenus>
+	<license></license>
+</magasine>
